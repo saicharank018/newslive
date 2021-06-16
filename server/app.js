@@ -2,10 +2,7 @@ const express=require("express")
 const mongoose=require("mongoose")
 const app=express()
 require("dotenv").config()
-// Et4ExPHADoEw8tf1
-var MONGOURI="mongodb+srv://saicharan:Et4ExPHADoEw8tf1@cluster0.watyb.mongodb.net/<dbname>?retryWrites=true&w=majority"
-
-//mongodb+srv://sai:<password>@cluster0.watyb.mongodb.net/<dbname>?retryWrites=true&w=majority
+var MONGOURI=<your url>
 mongoose.connect(MONGOURI,{useNewUrlParser: true, useUnifiedTopology: true})
 mongoose.connection.on("connected",()=>{console.log("connected")})
 .catch(err=>{
