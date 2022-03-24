@@ -20,10 +20,11 @@ Entertainment etc:
     $ npm run build // this will compile the react code using webpack and generate a folder called docs in the root level
     $ npm run start // this will run the files in docs, this behavior is exactly the same how gh-pages will run your static site  
 ```
+
   ## Server-side usage(PORT: 8000)
-    ```
+  ```
     $ cd server   // go to server folder
     $ npm i       // npm install packages
     $ npm run dev // run it locally
     $ npm run build // this will build the server code to es5 js codes and generate a dist file
-   ```
+  ```
